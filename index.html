@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
+<!-- saved from url=(0049)file:///Users/dilippatnaik/Downloads/index_5.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PatnAIQ — an AI product studio</title>
-<meta name="description" content="PatnAIQ is an AI product studio. Its first product, Surfaced, checks whether AI assistants can find, trust and quote your website — free, no signup.">
+<meta name="description" content="PatnAIQ is an AI product studio. Building AI-led toolsets that make a big impact. First up: Surfaced, the AI visibility platform.">
 <meta name="author" content="Dilip Patnaik">
 <link rel="canonical" href="https://patnaiq.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="PatnAIQ — an AI product studio">
-<meta property="og:description" content="The I in AI is the I in IQ. PatnAIQ builds focused AI tools that work. First up: Surfaced, the AI visibility checker.">
+<meta property="og:description" content="The I in AI is the I in IQ. PatnAIQ builds AI-led toolsets that make a big impact. First up: Surfaced.">
 <meta property="og:image" content="https://patnaiq.com/og.svg">
 <meta property="og:url" content="https://patnaiq.com/">
 <meta property="article:published_time" content="2026-07-29">
@@ -27,7 +27,6 @@
       "description": "An AI product studio building focused, working AI tools.",
       "founder": { "@type": "Person", "name": "Dilip Patnaik" },
       "sameAs": [
-        "https://github.com/2nnh2gs47g-dotcom",
         "https://surfaced.patnaiq.com/"
       ]
     },
@@ -45,9 +44,7 @@
       "operatingSystem": "Web",
       "url": "https://surfaced.patnaiq.com/",
       "description": "Checks whether AI assistants can find, trust and quote a website, then lists the fixes in priority order.",
-      "publisher": { "@id": "https://patnaiq.com/#org" },
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD",
-                  "description": "Free single-page AI visibility check." }
+      "publisher": { "@id": "https://patnaiq.com/#org" }
     },
     {
       "@type": "FAQPage",
@@ -56,19 +53,19 @@
           "@type": "Question",
           "name": "What does PatnAIQ build?",
           "acceptedAnswer": { "@type": "Answer", "text":
-            "PatnAIQ builds small, focused AI products that do one job well. The first is Surfaced, a free tool that checks whether AI assistants such as ChatGPT, Claude, Gemini and Perplexity can find, trust and quote a website, then lists exactly what to fix." }
+            "PatnAIQ builds AI-led toolsets that make a big impact. The first is Surfaced, which checks whether AI assistants such as ChatGPT, Claude, Gemini and Perplexity can find, trust and quote a website, then lists exactly what to fix. A sales effectiveness toolset that reshapes how leads are handled is in development." }
         },
         {
           "@type": "Question",
           "name": "What is Surfaced?",
           "acceptedAnswer": { "@type": "Answer", "text":
-            "Surfaced fetches a page the way an AI crawler does — raw HTML, no JavaScript — and scores it on crawler access, answer-shaped content, proof signals and brand footprint. It is live, free, and requires no signup." }
+            "Surfaced fetches a page the way an AI crawler does — raw HTML, no JavaScript — and scores it on crawler access, answer-shaped content, proof signals and brand footprint. It is live today; contact patnaiq@gmail.com for a demo." }
         },
         {
           "@type": "Question",
           "name": "Who is behind PatnAIQ?",
           "acceptedAnswer": { "@type": "Answer", "text":
-            "PatnAIQ is founded and run by Dilip Patnaik. It is a studio of one, shipping deliberately small products, and it says so plainly rather than pretending otherwise." }
+            "PatnAIQ is founded and run by Dilip Patnaik. It is a studio of one, shipping focused AI-led toolsets, and it says so plainly rather than pretending otherwise." }
         }
       ]
     }
@@ -76,112 +73,73 @@
 }
 </script>
 <style>
-  :root {
-    --void: #0d0b16;          /* darker than Surfaced's navy — the lab behind the product */
-    --panel: #14112e;
-    --paper: #f4f3f8;
-    --muted: #9b96b8;
-    --faint: #ffffff14;
-    --violet: #a78bfa;
-    --cyan: #67e8f9;
-    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
-    --sans: "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
-  }
   * { box-sizing: border-box; margin: 0; }
   html { scroll-behavior: smooth; }
-  body {
-    font: 17px/1.65 var(--sans); color: var(--paper); background: var(--void);
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 920px; margin: 0 auto; padding: 0 24px; }
-  a { color: var(--cyan); text-decoration-thickness: 1px; text-underline-offset: 3px; }
-  a:hover { color: var(--violet); }
-  :focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 3px; }
-
-  /* ---------- hero: the wordmark is the thesis ---------- */
-  .hero { padding: 13vh 0 9vh; }
-  .mark {
-    font-family: var(--mono); font-weight: 700; letter-spacing: -0.01em;
-    font-size: clamp(52px, 12.5vw, 132px); line-height: 1.02;
-  }
-  .mark .ai { color: var(--violet); }
-  .mark .shared {
-    background: linear-gradient(135deg, var(--violet) 20%, var(--cyan) 80%);
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-  .mark .iq { color: var(--cyan); }
-  .mark-key {
-    display: flex; gap: 26px; margin-top: 18px;
-    font-family: var(--mono); font-size: 12px; letter-spacing: .18em;
-    text-transform: uppercase; color: var(--muted);
-  }
-  .mark-key .k-ai { border-bottom: 2px solid var(--violet); padding-bottom: 3px; }
-  .mark-key .k-iq { border-bottom: 2px solid var(--cyan); padding-bottom: 3px; }
-  h1 {
-    margin-top: 8vh; font-size: clamp(24px, 3.6vw, 34px); font-weight: 700;
-    letter-spacing: -0.015em; max-width: 21ch; line-height: 1.25;
-  }
-  .plain { margin-top: 14px; color: var(--muted); font-size: 18px; max-width: 46ch; }
-
-  /* ---------- sections ---------- */
-  section { padding: 9vh 0 0; }
-  .rule { border: none; border-top: 1px solid var(--faint); margin: 9vh 0 0; }
-  h2 {
-    font-size: clamp(21px, 2.6vw, 27px); letter-spacing: -0.01em; margin-bottom: 22px;
-  }
-  h2 .q { color: var(--violet); font-family: var(--mono); font-weight: 400; margin-right: 10px; }
-  h3 { font-size: 17px; margin: 30px 0 10px; letter-spacing: -0.005em; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+  a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  main > .hero { padding: 12vh 0 8vh; }
+  section { padding: 8vh 0 0; }
+  footer { padding: 9vh 0 9vh; }
+  .rule { border: none; margin: 8vh 0 0; }
+  h1 { margin-top: 7vh; font-weight: 700; letter-spacing: -0.015em; max-width: 21ch; line-height: 1.22; }
+  h3 { margin: 30px 0 10px; letter-spacing: -0.005em; }
+  p + p { margin-top: 16px; }
+  .body p { max-width: 62ch; }
   .body ul { margin: 12px 0 0; padding-left: 22px; max-width: 60ch; }
   .body li { margin-bottom: 10px; }
-  .body li::marker { color: var(--violet); }
-  p + p { margin-top: 16px; }
-  .body p { max-width: 62ch; color: var(--paper); }
-  .body p b { font-weight: 600; }
-  .body .aside { color: var(--muted); }
-
-  /* ---------- products ---------- */
   table { width: 100%; border-collapse: collapse; margin-top: 4px; }
-  th {
-    text-align: left; font-family: var(--mono); font-weight: 400; font-size: 11.5px;
-    letter-spacing: .16em; text-transform: uppercase; color: var(--muted);
-    padding: 0 14px 12px 0; border-bottom: 1px solid var(--faint);
-  }
-  td { padding: 18px 14px 18px 0; border-bottom: 1px solid var(--faint); vertical-align: top; }
-  td.name { font-family: var(--mono); font-weight: 700; font-size: 17px; white-space: nowrap; }
-  td.what { color: var(--muted); max-width: 44ch; }
-  .status {
-    font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
-    border: 1px solid; border-radius: 99px; padding: 3px 12px; white-space: nowrap;
-  }
-  .live { color: var(--cyan); border-color: #67e8f955; }
-  .lab { color: var(--muted); border-color: #9b96b840; }
-  tr.dim td { color: #6d6890; }
-  tr.dim td.name { color: #6d6890; font-weight: 400; }
-  .cta {
-    display: inline-block; margin-top: 26px; padding: 13px 24px; border-radius: 10px;
-    font-weight: 700; font-size: 16px; color: var(--void); text-decoration: none;
-    background: linear-gradient(96deg, var(--violet), var(--cyan));
-  }
-  .cta:hover { filter: brightness(1.08); color: var(--void); }
-
-  /* ---------- footer ---------- */
-  footer { padding: 10vh 0 9vh; }
-  footer .demo {
-    font-size: 16px; color: var(--paper); max-width: 58ch;
-  }
-  footer ul {
-    list-style: none; padding: 0; margin: 34px 0 0; display: flex; flex-wrap: wrap;
-    gap: 8px 26px; font-family: var(--mono); font-size: 13px;
-  }
-  footer .signals { margin-top: 26px; font-size: 13.5px; color: var(--muted); max-width: 62ch; }
-  footer .fine {
-    margin-top: 30px; font-family: var(--mono); font-size: 12px; color: var(--muted);
-  }
+  th { text-align: left; font-weight: 400; font-size: 11.5px; letter-spacing: .16em;
+       text-transform: uppercase; padding: 0 14px 12px 0; }
+  td { padding: 18px 14px 18px 0; vertical-align: top; }
+  td.name { font-weight: 700; font-size: 17px; white-space: nowrap; }
+  td.what { max-width: 44ch; }
+  .status { font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+            border: 1px solid; border-radius: 99px; padding: 3px 12px; white-space: nowrap; }
+  .cta { display: inline-block; margin-top: 26px; padding: 13px 26px;
+         font-weight: 700; font-size: 16px; text-decoration: none; }
+  footer .demo { font-size: 16px; max-width: 58ch; }
+  footer ul { list-style: none; padding: 0; margin: 34px 0 0; display: flex;
+              flex-wrap: wrap; gap: 8px 26px; font-size: 13px; }
+  footer .signals { margin-top: 26px; font-size: 13.5px; max-width: 62ch; }
+  footer .fine { margin-top: 30px; font-size: 12px; }
+  .mark-key { display: flex; gap: 34px; margin-top: 44px; font-size: 13px;
+              font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-  @media (max-width: 480px) {
-    .hero { padding-top: 9vh; }
-    .mark-key { gap: 18px; }
-  }
+  @media (max-width: 480px) { main > .hero { padding-top: 8vh; } .mark-key { gap: 16px; flex-wrap: wrap; } }
+
+  :root { --clay:#C4906B; --esp:#2C1B10; --deep:#8F5232; --pale:#F0E4D6; --line:#2C1B1033; }
+  body { font: 17px/1.66 "Helvetica Neue", Helvetica, Arial, sans-serif;
+         background: var(--clay); color: var(--esp); -webkit-font-smoothing: antialiased; }
+  a { color: var(--esp); font-weight: 600; } a:hover { color: var(--pale); }
+  :focus-visible { outline: 2px solid var(--esp); outline-offset: 3px; }
+  .mark { font-weight: 700; letter-spacing: -0.04em; color: var(--esp);
+          font-size: clamp(54px, 13vw, 140px); line-height: 1.0; }
+  .mark .ai { text-decoration: underline; text-decoration-color: var(--esp);
+          text-decoration-thickness: 0.06em; text-underline-offset: 0.08em;
+          text-decoration-skip-ink: none; }
+  .mark .shared { color: var(--pale); text-decoration: underline;
+          text-decoration-color: var(--esp); text-decoration-thickness: 0.06em;
+          text-underline-offset: 0.08em; text-decoration-skip-ink: none;
+          text-shadow: 0 1px 0 #8F523266; }
+  .mark .iq { color: var(--pale); text-shadow: 0 1px 0 #8F523266; }
+  .mark-key { color: var(--esp); }
+  .mark-key .k-ai { border-bottom: 3px solid var(--esp); padding-bottom: 6px; }
+  .mark-key .k-iq { border-bottom: 3px solid var(--pale); padding-bottom: 6px; }
+  h1 { font-size: clamp(26px, 3.8vw, 38px); margin-top: 10vh; }
+  .plain { margin-top: 18px; color: var(--esp); font-size: 19px; max-width: 46ch; }
+  .rule { border-top: 1px solid var(--line); }
+  h2 { font-size: clamp(22px, 2.7vw, 29px); letter-spacing: -0.015em; margin-bottom: 22px; }
+  h2 .q { display: none; }
+  h3 { font-size: 17px; }
+  .body p { color: var(--esp); } .body .aside { color: var(--deep); } .body li::marker { color: var(--deep); }
+  th { color: var(--deep); border-bottom: 1px solid var(--line); }
+  td { border-bottom: 1px solid var(--line); } td.what { color: var(--deep); }
+  .live { color: var(--esp); border-color: var(--esp); }
+  .lab { color: var(--deep); border-color: #8F523266; }
+  tr.dim td, tr.dim td.name { color: #9A6E4E; font-weight: 400; }
+  .cta { background: var(--esp); color: var(--clay); border-radius: 10px; }
+  .cta:hover { background: var(--deep); color: var(--pale); }
+  footer .demo { color: var(--esp); } footer .signals, footer .fine { color: var(--deep); }
 </style>
 </head>
 <body>
@@ -194,8 +152,8 @@
       <span class="k-iq">i·q — human intelligence</span>
     </div>
     <h1>The I in AI is the I in IQ.</h1>
-    <p class="plain">PatnAIQ is an AI product studio. We ship small tools that work,
-    and we put our name on the overlap.</p>
+    <p class="plain">PatnAIQ is an AI product studio. We ship small AI-led toolsets that make
+    a big impact — and we put our name on the overlap.</p>
   </div>
 
   <hr class="rule">
@@ -206,7 +164,7 @@
     list of links. Now they ask an assistant and receive one answer, with a handful of
     named sources. Software that lists options is giving way to software that answers
     questions.</p>
-    <p>That shift creates a set of small, sharp problems that big platforms are too busy
+    <p>That shift creates sharp, consequential problems that big platforms are too busy
     to solve well. A studio can. Each PatnAIQ product picks one of those problems,
     solves it end to end, and proves the result with a number you can check yourself.</p>
 
@@ -225,8 +183,8 @@
       <li>Charge for outcomes. Free tools stay genuinely free; paid tiers deliver
       results, not dashboards.</li>
     </ul>
-    <p class="aside">No platform ambitions, no vague roadmap. One working tool at a
-    time, each one useful on the day it launches.</p>
+    <p class="aside">A focused roadmap: one working toolset at a time, each one useful on the
+    day it launches — and built to change how its job gets done.</p>
   </section>
 
   <hr class="rule">
@@ -234,27 +192,28 @@
   <section class="wrap body">
     <h2><span class="q" aria-hidden="true">?</span>What does PatnAIQ build?</h2>
     <table>
-      <tr><th scope="col">Product</th><th scope="col">What it does</th><th scope="col">Status</th></tr>
+      <tbody><tr><th scope="col">Product</th><th scope="col">What it does</th><th scope="col">Status</th></tr>
       <tr>
-        <td class="name"><a href="https://surfaced.patnaiq.com/">Surfaced</a></td>
+        <td class="name">Surfaced</td>
         <td class="what">Will AI assistants find and quote your website? Surfaced reads
-        any page the way a crawler does and tells you exactly what to fix — free, no
-        signup.</td>
+        any page the way a crawler does, scores it, and tells you exactly what to
+        fix.</td>
         <td><span class="status live">Live</span></td>
       </tr>
-      <tr class="dim">
-        <td class="name">Unannounced</td>
-        <td class="what">Next product in development. It will be named when it works,
-        not before.</td>
+      <tr>
+        <td class="name">Sales effectiveness</td>
+        <td class="what">A toolset that reshapes how leads are handled — AI-driven
+        qualification, routing and follow-up, measured by the only number that
+        matters: closed revenue.</td>
         <td><span class="status lab">In the lab</span></td>
       </tr>
       <tr class="dim">
         <td class="name">Unannounced</td>
-        <td class="what">Further out. Same rule.</td>
+        <td class="what">Further out. It will be named when it works, not before.</td>
         <td><span class="status lab">In the lab</span></td>
       </tr>
-    </table>
-    <a class="cta" href="https://surfaced.patnaiq.com/">Run a free check with Surfaced</a>
+    </tbody></table>
+    <a class="cta" href="mailto:patnaiq@gmail.com?subject=Surfaced%20demo">Request a Surfaced demo</a>
   </section>
 
   <hr class="rule">
@@ -263,8 +222,8 @@
     <h2><span class="q" aria-hidden="true">?</span>What is Surfaced?</h2>
     <p>Surfaced fetches your page the way an AI crawler does — raw HTML, no JavaScript —
     then scores what it finds: crawler access, answer-shaped content, proof signals and
-    brand footprint. It returns four scores out of 100 and a fix list ordered by
-    impact.</p>
+    brand footprint. It returns four scores out of 100 and a fix list ordered by impact, so the
+    work starts with whatever costs the most visibility.</p>
     <p>The scoring adjusts to what kind of business you are. A dentist is judged on
     Google reviews and a business profile; a software company is judged on its site and
     its footprint. Most tools score both against the same checklist, which makes one of
@@ -283,8 +242,8 @@
     <h2><span class="q" aria-hidden="true">?</span>Who is behind PatnAIQ?</h2>
     <p>PatnAIQ is founded and run by <b>Dilip Patnaik</b>. It is a studio of one, which
     is stated here plainly because the products themselves punish websites that fake
-    their signals. The same rule applies at home: one live product today, more when
-    they work.</p>
+    their signals. The same rule applies at home: one live toolset today, the next
+    already in build.</p>
   </section>
 </main>
 
@@ -292,13 +251,11 @@
 
 <footer class="wrap">
   <p class="demo">This page is optimized for AI crawlers — every word is in the raw
-  HTML, labelled with schema, shaped as answers.
-  <a href="https://surfaced.patnaiq.com/">Score it yourself at surfaced.patnaiq.com</a>.</p>
+  HTML, labelled with schema, shaped as answers. That is the standard every PatnAIQ
+  product is built to.</p>
 
   <ul>
-    <li><a href="https://surfaced.patnaiq.com/">Surfaced</a></li>
-    <li><a href="https://github.com/2nnh2gs47g-dotcom">GitHub</a></li>
-    <li><a href="mailto:hello@patnaiq.com">hello@patnaiq.com</a></li>
+    <li><a href="mailto:patnaiq@gmail.com">patnaiq@gmail.com</a></li>
   </ul>
 
   <p class="signals">Signals we build against:
@@ -312,5 +269,6 @@
   Updated <time datetime="2026-07-29">29 July 2026</time></p>
 </footer>
 
-</body>
-</html>
+
+
+</body></html>
