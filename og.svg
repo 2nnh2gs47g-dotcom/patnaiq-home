@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#F0E4D6"/>
-  <text x="90" y="290" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+  <text x="90" y="288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
         font-size="130" font-weight="700" letter-spacing="-5" fill="#26170C">patna<tspan fill="#B0603A">i</tspan><tspan fill="#B0603A">q</tspan></text>
-  <rect x="418" y="306" width="214" height="8" fill="#26170C"/>
-  <text x="94" y="396" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
-        font-size="42" font-weight="700" fill="#96502F">AI-led toolsets that make a big impact.</text>
-  <text x="94" y="456" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
-        font-size="27" fill="#6B5341">An AI product studio. One focused problem at a time.</text>
+  <rect x="418" y="304" width="214" height="8" fill="#26170C"/>
+  <text x="94" y="356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" letter-spacing="-0.5" fill="#26170C">a·i — artificial intelligence</text>
+  <text x="94" y="392" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" letter-spacing="-0.5" fill="#B0603A">i·q — human intelligence</text>
+  <text x="94" y="470" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="40" font-weight="700" fill="#96502F">AI-led toolsets that make a big impact.</text>
+  <text x="94" y="526" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="25" fill="#6B5341">An AI product studio. One focused problem at a time.</text>
 </svg>
