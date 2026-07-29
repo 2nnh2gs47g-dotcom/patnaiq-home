@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)file:///Users/dilippatnaik/Downloads/index_5.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PatnAIQ — an AI product studio</title>
-<meta name="description" content="PatnAIQ is an AI product studio. Building AI-led toolsets that make a big impact. First up: Surfaced, the AI visibility platform.">
+<meta name="description" content="PatnAIQ is an AI product studio building AI-led toolsets that make a big impact. One focused problem at a time, one working toolset at a time.">
 <meta name="author" content="Dilip Patnaik">
 <link rel="canonical" href="https://patnaiq.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="PatnAIQ — an AI product studio">
-<meta property="og:description" content="The I in AI is the I in IQ. PatnAIQ builds AI-led toolsets that make a big impact. First up: Surfaced.">
+<meta property="og:description" content="An AI product studio building AI-led toolsets that make a big impact. One focused problem at a time, one working toolset at a time.">
 <meta property="og:image" content="https://patnaiq.com/og.svg">
 <meta property="og:url" content="https://patnaiq.com/">
 <meta property="article:published_time" content="2026-07-29">
@@ -53,13 +53,13 @@
           "@type": "Question",
           "name": "What does PatnAIQ build?",
           "acceptedAnswer": { "@type": "Answer", "text":
-            "PatnAIQ builds AI-led toolsets that make a big impact. The first is Surfaced, which checks whether AI assistants such as ChatGPT, Claude, Gemini and Perplexity can find, trust and quote a website, then lists exactly what to fix. A sales effectiveness toolset that reshapes how leads are handled is in development." }
+            "PatnAIQ builds AI-led toolsets that make a big impact. The first, Surfaced, is an AI visibility platform, live today. A sales effectiveness toolset that reshapes how leads are handled is in development, with more to follow." }
         },
         {
           "@type": "Question",
-          "name": "What is Surfaced?",
+          "name": "What makes a PatnAIQ product?",
           "acceptedAnswer": { "@type": "Answer", "text":
-            "Surfaced fetches a page the way an AI crawler does — raw HTML, no JavaScript — and scores it on crawler access, answer-shaped content, proof signals and brand footprint. It is live today; contact patnaiq@gmail.com for a demo." }
+            "Every PatnAIQ product answers one question its user actually asks, proves its value with a number the customer can verify independently, and reports only what it observed. Products that do not clear that bar stay in the lab, unnamed, until they do." }
         },
         {
           "@type": "Question",
@@ -77,11 +77,11 @@
   html { scroll-behavior: smooth; }
   .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
   a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
-  main > .hero { padding: 12vh 0 8vh; }
-  section { padding: 8vh 0 0; }
-  footer { padding: 9vh 0 9vh; }
-  .rule { border: none; margin: 8vh 0 0; }
-  h1 { margin-top: 7vh; font-weight: 700; letter-spacing: -0.015em; max-width: 21ch; line-height: 1.22; }
+  main > .hero { padding: 84px 0 28px; }
+  section { padding: 44px 0 0; }
+  footer { padding: 56px 0 64px; }
+  .rule { border: none; margin: 44px 0 0; }
+  h1 { margin-top: 56px; font-weight: 700; letter-spacing: -0.015em; max-width: 21ch; line-height: 1.22; }
   h3 { margin: 30px 0 10px; letter-spacing: -0.005em; }
   p + p { margin-top: 16px; }
   .body p { max-width: 62ch; }
@@ -104,10 +104,34 @@
   footer .fine { margin-top: 30px; font-size: 12px; }
   .mark-key { display: flex; gap: 34px; margin-top: 44px; font-size: 13px;
               font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-  @media (max-width: 480px) { main > .hero { padding-top: 8vh; } .mark-key { gap: 16px; flex-wrap: wrap; } }
 
-  :root { --clay:#C4906B; --esp:#2C1B10; --deep:#8F5232; --pale:#F0E4D6; --line:#2C1B1033; }
+  /* contact block */
+  .contact-lead { font-size: 17px; color: var(--esp); max-width: 52ch; }
+  footer ul { margin-top: 14px; font-size: 16px; font-weight: 600; }
+
+  /* colophon — the machine-facing note, set apart at the very bottom */
+  .colophon { margin-top: 52px; padding-top: 26px; border-top: 1px solid var(--line); }
+  .colophon .demo { font-size: 14px; color: var(--deep); max-width: 64ch; }
+  .colophon .signals { margin-top: 14px; font-size: 13px; color: var(--deep); max-width: 64ch; }
+
+  /* hero: first rule sits closer to the intro line */
+  .hero + .rule { margin-top: 16px; }
+
+  /* ---- phone: stack the product table into readable rows ---- */
+  @media (max-width: 620px) {
+    table, tbody, tr, td { display: block; width: 100%; }
+    th { display: none; }
+    tr:first-child { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 20px 0 22px; }
+    td { border: none; padding: 0; max-width: none; }
+    td.name { font-size: 20px; white-space: normal; margin-bottom: 10px; }
+    td.what { margin-bottom: 14px; max-width: none; }
+    .status { display: inline-block; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  @media (max-width: 480px) { main > .hero { padding-top: 56px; } .mark-key { gap: 16px; flex-wrap: wrap; } }
+
+  :root { --clay:#F0E4D6; --esp:#26170C; --deep:#6B5341; --pale:#B0603A; --line:#26170C26; }
   body { font: 17px/1.66 "Helvetica Neue", Helvetica, Arial, sans-serif;
          background: var(--clay); color: var(--esp); -webkit-font-smoothing: antialiased; }
   a { color: var(--esp); font-weight: 600; } a:hover { color: var(--pale); }
@@ -125,20 +149,20 @@
   .mark-key { color: var(--esp); }
   .mark-key .k-ai { border-bottom: 3px solid var(--esp); padding-bottom: 6px; }
   .mark-key .k-iq { border-bottom: 3px solid var(--pale); padding-bottom: 6px; }
-  h1 { font-size: clamp(26px, 3.8vw, 38px); margin-top: 10vh; }
+  h1 { font-size: clamp(26px, 3.8vw, 38px); margin-top: 56px; }
   .plain { margin-top: 18px; color: var(--esp); font-size: 19px; max-width: 46ch; }
   .rule { border-top: 1px solid var(--line); }
   h2 { font-size: clamp(22px, 2.7vw, 29px); letter-spacing: -0.015em; margin-bottom: 22px; }
-  h2 .q { display: none; }
+  h2 .q { display: none; } h2 { color: #96502F; }
   h3 { font-size: 17px; }
   .body p { color: var(--esp); } .body .aside { color: var(--deep); } .body li::marker { color: var(--deep); }
   th { color: var(--deep); border-bottom: 1px solid var(--line); }
   td { border-bottom: 1px solid var(--line); } td.what { color: var(--deep); }
-  .live { color: var(--esp); border-color: var(--esp); }
+  .live { color: var(--pale); border-color: #B0603A88; }
   .lab { color: var(--deep); border-color: #8F523266; }
   tr.dim td, tr.dim td.name { color: #9A6E4E; font-weight: 400; }
-  .cta { background: var(--esp); color: var(--clay); border-radius: 10px; }
-  .cta:hover { background: var(--deep); color: var(--pale); }
+  .cta { background: var(--pale); color: #FFF7EE; border-radius: 10px; }
+  .cta:hover { background: #96502F; color: #FFF7EE; }
   footer .demo { color: var(--esp); } footer .signals, footer .fine { color: var(--deep); }
 </style>
 </head>
@@ -151,9 +175,9 @@
       <span class="k-ai">a·i — artificial intelligence</span>
       <span class="k-iq">i·q — human intelligence</span>
     </div>
-    <h1>The I in AI is the I in IQ.</h1>
-    <p class="plain">PatnAIQ is an AI product studio. We ship small AI-led toolsets that make
-    a big impact — and we put our name on the overlap.</p>
+    <h1>AI-led toolsets that make a big impact.</h1>
+    <p class="plain">PatnAIQ is an AI product studio. One focused problem at a time,
+    one working toolset at a time — and our name is on the overlap.</p>
   </div>
 
   <hr class="rule">
@@ -192,7 +216,7 @@
   <section class="wrap body">
     <h2><span class="q" aria-hidden="true">?</span>What does PatnAIQ build?</h2>
     <table>
-      <tbody><tr><th scope="col">Product</th><th scope="col">What it does</th><th scope="col">Status</th></tr>
+      <tr><th scope="col">Product</th><th scope="col">What it does</th><th scope="col">Status</th></tr>
       <tr>
         <td class="name">Surfaced</td>
         <td class="what">Will AI assistants find and quote your website? Surfaced reads
@@ -212,28 +236,22 @@
         <td class="what">Further out. It will be named when it works, not before.</td>
         <td><span class="status lab">In the lab</span></td>
       </tr>
-    </tbody></table>
+    </table>
     <a class="cta" href="mailto:patnaiq@gmail.com?subject=Surfaced%20demo">Request a Surfaced demo</a>
   </section>
 
   <hr class="rule">
 
   <section class="wrap body">
-    <h2><span class="q" aria-hidden="true">?</span>What is Surfaced?</h2>
-    <p>Surfaced fetches your page the way an AI crawler does — raw HTML, no JavaScript —
-    then scores what it finds: crawler access, answer-shaped content, proof signals and
-    brand footprint. It returns four scores out of 100 and a fix list ordered by impact, so the
-    work starts with whatever costs the most visibility.</p>
-    <p>The scoring adjusts to what kind of business you are. A dentist is judged on
-    Google reviews and a business profile; a software company is judged on its site and
-    its footprint. Most tools score both against the same checklist, which makes one of
-    them look broken when it isn't.</p>
-
-    <h3>Why the raw-HTML view matters</h3>
-    <p>Most AI citation crawlers never execute JavaScript. A site can look complete to
-    every human visitor while showing a crawler almost nothing, and its owner has no way
-    to know. Surfaced reads the page exactly as those crawlers do, so its scores reflect
-    what the engines actually see.</p>
+    <h2><span class="q" aria-hidden="true">?</span>What makes a PatnAIQ product?</h2>
+    <p>Every product meets the same standard before it ships. It answers one question
+    its user actually asks. It proves its value with a number the customer can verify
+    independently. And it reports only what it observed — no PatnAIQ product fabricates
+    a signal, a score or a result, for a customer or for the studio itself.</p>
+    <p>The lineup will stay interesting rather than long. AI visibility today, sales
+    effectiveness next, and after that whichever problem is sharp enough to deserve a
+    toolset of its own. Products that don't clear the bar stay in the lab, unnamed,
+    until they do.</p>
   </section>
 
   <hr class="rule">
@@ -250,25 +268,28 @@
 <hr class="rule">
 
 <footer class="wrap">
-  <p class="demo">This page is optimized for AI crawlers — every word is in the raw
-  HTML, labelled with schema, shaped as answers. That is the standard every PatnAIQ
-  product is built to.</p>
+  <p class="contact-lead">Talk to us about a toolset, a pilot, or a problem worth solving.</p>
 
   <ul>
     <li><a href="mailto:patnaiq@gmail.com">patnaiq@gmail.com</a></li>
   </ul>
 
-  <p class="signals">Signals we build against:
-  <a href="https://arxiv.org/abs/2311.09735">the GEO research paper</a> ·
-  <a href="https://platform.openai.com/docs/bots">OpenAI crawler docs</a> ·
-  <a href="https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search">Anthropic docs</a> ·
-  <a href="https://schema.org/Organization">schema.org</a> ·
-  <a href="https://llmstxt.org/">llms.txt</a></p>
-
   <p class="fine">© 2026 PatnAIQ · Published <time datetime="2026-07-29">29 July 2026</time> ·
   Updated <time datetime="2026-07-29">29 July 2026</time></p>
+
+  <div class="colophon">
+    <p class="demo">This page is optimized for AI crawlers — every word is in the raw
+    HTML, labelled with schema, shaped as answers. That is the standard every PatnAIQ
+    product is built to.</p>
+
+    <p class="signals">Signals we build against:
+    <a href="https://arxiv.org/abs/2311.09735">the GEO research paper</a> ·
+    <a href="https://platform.openai.com/docs/bots">OpenAI crawler docs</a> ·
+    <a href="https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search">Anthropic docs</a> ·
+    <a href="https://schema.org/Organization">schema.org</a> ·
+    <a href="https://llmstxt.org/">llms.txt</a></p>
+  </div>
 </footer>
 
-
-
-</body></html>
+</body>
+</html>
